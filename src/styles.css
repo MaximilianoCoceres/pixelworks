@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,500&family=Ubuntu&display=swap");
+
+:root {
+  --fontFamilyTitle: "Montserrat", sans-serif;
+  --fontFamilyText: "Ubuntu", sans-serif;
+  --colorText: #333333;
+  --colorPrincipal: #ff6f61;
+  --colorTitle: #4c4c6d;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+p {
+  font-family: var(--fontFamilyText);
+  color: var(--colorText);
+}
+
+button.btn {
+  font-family: var(--fontFamilyTitle);
+  background-color: var(--colorPrincipal);
+  color: #f4f4f4;
+  padding: 0.8em;
+  box-shadow: 0 3px 10px black;
+}
+
+button.btn:hover {
+  box-shadow: 0 1px 2px black;
+  background-color: var(--colorPrincipal);
+}

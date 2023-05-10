@@ -1,0 +1,26 @@
+<main
+  class="d-flex justify-content-center align-items-center gap-4 flex-wrap container"
+  id="servicios"
+>
+  <h1 class="title-servicios">Nuestros Servicios</h1>
+  <div class="row">
+    <div class="col-sm-4 servicio-tarjeta" *ngFor="let servicio of servicios">
+      <div class="card">
+        <img
+          src="{{ servicio.img }}"
+          class="card-img-top"
+          alt="{{ servicio.servicio }}"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ servicio.servicio }}</h5>
+          <p class="card-text">
+            {{ servicio.desc }}
+          </p>
+          <button class="btn">
+            <a href="#">{{ servicio.button }}</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

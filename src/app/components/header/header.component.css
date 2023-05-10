@@ -1,0 +1,21 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.nav-inicio {
+  background-color: #f4f4f4;
+}
+
+.navbar-brand {
+  padding-left: 1em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

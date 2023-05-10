@@ -1,0 +1,21 @@
+.btnTrabaja {
+  color: #f4f4f4;
+  background-color: #ff6f61;
+  padding: 0.8em;
+  box-shadow: 0 3px 10px black;
+}
+
+.btnTrabaja:hover {
+  box-shadow: 0 1px 2px black;
+}
+
+main {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../../assets/Ventajas-del-trabajo-en-equipo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: #f4f4f4;
+}
