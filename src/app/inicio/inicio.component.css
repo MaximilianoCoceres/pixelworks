@@ -9,6 +9,10 @@
   box-shadow: 0 1px 2px black;
 }
 
+.inicio h1 {
+  color: #f4f4f4;
+}
+
 main {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),

@@ -1,0 +1,38 @@
+<main class="mt-5 equipo-container">
+  <div
+    class="d-flex justify-content-center align-items-center text-center flex-column equipo-text"
+  >
+    <h1>Nuestro Equipo</h1>
+    <p>
+      Un equipo talentoso y apasionado que combina la creatividad y la
+      experiencia para ofrecerte resultados excepcionales
+    </p>
+  </div>
+
+  <div class="row w-100 m-0">
+    <div
+      class="col-md-4 equipo-img d-flex justify-content-center align-items-center"
+      *ngFor="let empleado of empleados"
+    >
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="{{ empleado.picture.large }}"
+              class="img-fluid rounded-start"
+              alt="empleado"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-title">{{ empleado.name.first }}</p>
+              <span class="card-text" *ngFor="let empleo of empleos">{{
+                empleo.empleo
+              }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

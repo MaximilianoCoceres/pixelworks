@@ -1,0 +1,16 @@
+.img-carousel {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  max-height: 30em;
+}
+
+.carousel-container {
+  box-shadow: 0 0px 10px black;
+}
+
+.carrousel-text {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.carrousel-text p {
+  color: #f4f4f4;
+}

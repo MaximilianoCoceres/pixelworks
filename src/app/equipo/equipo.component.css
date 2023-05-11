@@ -1,0 +1,26 @@
+.equipo-container {
+  height: 100vh;
+}
+
+.equipo-text h1 {
+  font-size: 8em;
+  color: var(--colorTitle);
+}
+
+.equipo-text p {
+  font-size: 1.4em;
+}
+
+.equipo-img {
+  padding: 1em;
+}
+
+.equipo-img img {
+  width: 14em;
+}
+
+.equipo-img p {
+  font-family: var(--fontFamilyTitle);
+  margin-top: 1em;
+  font-size: 1.5em;
+}

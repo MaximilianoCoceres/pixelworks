@@ -1,0 +1,13 @@
+<h2 class="text-center mt-5">Nuestros clientes</h2>
+<main
+  class="d-flex w-100 justify-content-center align-items-center mt-1 flex-nowrap"
+>
+  <div class="row">
+    <div
+      class="col col-md-2 marca d-flex align-items-center justify-content-center m-0"
+      *ngFor="let marca of marcas"
+    >
+      <img src="{{ marca.img }}" alt="{{ marca.alt }}" />
+    </div>
+  </div>
+</main>

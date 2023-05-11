@@ -1,0 +1,9 @@
+<ngb-carousel class="carousel-container">
+  <ng-template ngbSlide *ngFor="let image of images">
+    <img [src]="image.src" [alt]="image.alt" class="img-carousel" />
+    <div class="carousel-caption carrousel-text">
+      <h3>{{ image.title }}</h3>
+      <p>{{ image.description }}</p>
+    </div>
+  </ng-template>
+</ngb-carousel>

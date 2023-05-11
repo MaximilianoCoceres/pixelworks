@@ -1,0 +1,32 @@
+.portfolio-text h1 {
+  font-size: 8em;
+  color: var(--colorTitle);
+}
+
+.portfolio-text p {
+  font-size: 1.3em;
+}
+
+@media screen and (max-width: 1200px) {
+  .portfolio-text {
+    width: 100%;
+  }
+  .portfolio-text h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+  .portfolio-text p {
+    font-size: 1em;
+  }
+
+  .portfolio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-carousel {
+    width: 100%;
+  }
+}

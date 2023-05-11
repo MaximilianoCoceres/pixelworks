@@ -10,7 +10,7 @@
 
 .title-servicios {
   position: absolute;
-  font-size: 10em;
+  font-size: 8.5em;
   font-family: var(--fontFamilyTitle);
   color: var(--colorTitle);
 }
