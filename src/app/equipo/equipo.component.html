@@ -1,4 +1,4 @@
-<main class="mt-5 equipo-container">
+<main class="mt-5 equipo-container container" id="equipo">
   <div
     class="d-flex justify-content-center align-items-center text-center flex-column equipo-text"
   >
@@ -11,25 +11,30 @@
 
   <div class="row w-100 m-0">
     <div
-      class="col-md-4 equipo-img d-flex justify-content-center align-items-center"
-      *ngFor="let empleado of empleados"
+      class="col-2 equipo-img d-flex justify-content-center align-items-center"
+      *ngFor="let empleado of empleados; let indice = index"
     >
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="{{ empleado.picture.large }}"
-              class="img-fluid rounded-start"
-              alt="empleado"
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <p class="card-title">{{ empleado.name.first }}</p>
-              <span class="card-text" *ngFor="let empleo of empleos">{{
-                empleo.empleo
-              }}</span>
-            </div>
+      <div class="card" style="width: 14em">
+        <img
+          src="{{ empleado.picture.large }}"
+          class="card-img-top p-2"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <p
+            class="card-title m-0 d-flex justify-content-center align-items-center flex-nowrap gap-1"
+          >
+            {{ empleado.name.first }}
+            <span><i class="{{ empleos[indice].icono }}"></i></span>
+          </p>
+          <span class="card-text empleo"> {{ empleos[indice].empleo }}</span>
+          <div
+            class="redes d-flex justify-content-center align-items-center gap-3"
+          >
+            <!-- Aca se haria en el componente agregarlo en el array su respectivo link a sus redes y colocarlo en el href (no lo hago ya que al tener todos # no tendria sentido) -->
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
           </div>
         </div>
       </div>

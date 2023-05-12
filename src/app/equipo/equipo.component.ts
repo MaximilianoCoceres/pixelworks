@@ -1,10 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import {HttpClient, HttpResponse} from '@angular/common/http';
 
+
+
 @Component({
   selector: 'app-equipo',
   templateUrl: './equipo.component.html',
-  styleUrls: ['./equipo.component.css']
+  styleUrls: ['./equipo.component.css'],
+
 })
 export class EquipoComponent implements OnInit {
 
@@ -12,13 +15,27 @@ export class EquipoComponent implements OnInit {
   empleados:any;
 
 
-  empleos=[
-    {"empleo":"Diseñador grafico"},
-    {"empleo":"Diseñador UX/UI"},
-    {"empleo":"Fotógrafo"},
-    {"empleo":"Diseñador web"},
-    {"empleo":"Community Manager"},
-    {"empleo":"Lic. Markenting"},
+  empleos:any=[
+    {
+      "empleo":"Diseñador grafico",
+      "icono": 'fa-solid fa-paintbrush'
+    },
+
+    {
+      "empleo":"Diseñador UX/UI",
+      "icono": 'fa-solid fa-users'},
+    {
+      "empleo":"Fotógrafo",
+      "icono": 'fa-solid fa-camera'},
+    {
+      "empleo":"Diseñador web",
+      "icono": 'fa-solid fa-keyboard'},
+    {
+      "empleo":"Community Manager",
+      "icono": 'fa-solid fa-hashtag'},
+    {
+      "empleo":"Lic. Markenting",
+      "icono": 'fa-solid fa-head-side-virus'},
 
   ]
 
@@ -37,6 +54,10 @@ ngOnInit(): void {
 
 }
 
+
+rastrearPor(indice:number, elemento:string){
+  console.log(indice,elemento)
+}
 
 
 }

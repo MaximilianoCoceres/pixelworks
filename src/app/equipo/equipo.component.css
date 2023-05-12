@@ -9,6 +9,7 @@
 
 .equipo-text p {
   font-size: 1.4em;
+  width: 50%;
 }
 
 .equipo-img {
@@ -16,11 +17,28 @@
 }
 
 .equipo-img img {
-  width: 14em;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .equipo-img p {
   font-family: var(--fontFamilyTitle);
   margin-top: 1em;
+  font-size: 1.5em;
+}
+
+.empleo {
+  font-family: var(--fontFamilyText);
+}
+
+.card {
+  border: none;
+  background-color: none;
+  color: var(--colorTitle);
+}
+
+.redes a {
+  text-decoration: none;
+  color: var(--colorTitle);
   font-size: 1.5em;
 }

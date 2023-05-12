@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 
@@ -38,7 +39,8 @@ import { EquipoComponent } from './equipo/equipo.component';
     AppRoutingModule,
     HttpClientModule,
     NgbModule,
-    NgbCarouselModule
+    NgbCarouselModule,
+    FontAwesomeModule
 
 
   ],
