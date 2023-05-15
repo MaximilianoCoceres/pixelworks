@@ -1,5 +1,5 @@
 .equipo-container {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .equipo-text h1 {
@@ -41,4 +41,28 @@
   text-decoration: none;
   color: var(--colorTitle);
   font-size: 1.5em;
+  transition: 0.6s all;
+}
+
+.redes a:nth-child(1):hover {
+  color: blue;
+}
+
+.redes a:nth-child(2):hover {
+  color: black;
+}
+
+.redes a:nth-child(3):hover {
+  color: green;
+}
+@media screen and (max-width: 1200px) {
+  .equipo-text h1 {
+    font-size: 4em;
+  }
+
+  .equipo-text p {
+    width: 100%;
+    text-align: start;
+    font-size: 1em;
+  }
 }

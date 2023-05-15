@@ -9,9 +9,9 @@
     </p>
   </div>
 
-  <div class="row w-100 m-0">
+  <div class="row w-100 m-0 fle-wrap">
     <div
-      class="col-2 equipo-img d-flex justify-content-center align-items-center"
+      class="col-6 col-lg-2 equipo-img d-flex justify-content-center align-items-center"
       *ngFor="let empleado of empleados; let indice = index"
     >
       <div class="card" style="width: 14em">
@@ -22,7 +22,7 @@
         />
         <div class="card-body text-center">
           <p
-            class="card-title m-0 d-flex justify-content-center align-items-center flex-nowrap gap-1"
+            class="card-title m-0 d-flex justify-content-center align-items-center gap-1"
           >
             {{ empleado.name.first }}
             <span><i class="{{ empleos[indice].icono }}"></i></span>

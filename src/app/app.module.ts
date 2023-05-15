@@ -4,6 +4,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {ReactiveFormsModule , FormsModule} from '@angular/forms';
+
 
 
 
@@ -16,6 +18,9 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { MarcasComponent } from './components/marcas/marcas.component';
 import { EquipoComponent } from './equipo/equipo.component';
+
+import { ContactoComponent } from './contacto/contacto.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -33,6 +38,9 @@ import { EquipoComponent } from './equipo/equipo.component';
     MarcasComponent,
     EquipoComponent,
 
+    ContactoComponent,
+     FooterComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -40,9 +48,9 @@ import { EquipoComponent } from './equipo/equipo.component';
     HttpClientModule,
     NgbModule,
     NgbCarouselModule,
-    FontAwesomeModule
-
-
+    FontAwesomeModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports:[],
   providers: [

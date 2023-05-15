@@ -1,0 +1,17 @@
+.contact-container {
+  min-height: 100vh;
+}
+
+.form-text h1 {
+  font-size: 8.5em;
+}
+
+.form-text p {
+  font-size: 1.4em;
+}
+
+@media screen and (max-width: 1200px) {
+  .form-text h1 {
+    font-size: 4em;
+  }
+}

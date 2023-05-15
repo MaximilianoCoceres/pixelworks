@@ -1,0 +1,14 @@
+a {
+  text-decoration: none;
+  color: #f4f4f4;
+  font-family: var(--fontFamilyText);
+  transition: 0.4s all;
+}
+
+li {
+  list-style: none;
+}
+
+ul li a:hover {
+  color: var(--colorPrincipal);
+}
