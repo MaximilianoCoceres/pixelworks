@@ -20,6 +20,7 @@ import { MarcasComponent } from './components/marcas/marcas.component';
 import { EquipoComponent } from './equipo/equipo.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ServiciosDetailsComponent } from './servicios-details/servicios-details.component';
 
 
 
@@ -41,6 +42,7 @@ import { FooterComponent } from './components/footer/footer.component';
     EquipoComponent,
     ContactoComponent,
      FooterComponent,
+     ServiciosDetailsComponent,
 
 
 
