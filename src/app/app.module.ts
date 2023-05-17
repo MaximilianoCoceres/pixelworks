@@ -18,9 +18,11 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { MarcasComponent } from './components/marcas/marcas.component';
 import { EquipoComponent } from './equipo/equipo.component';
-
 import { ContactoComponent } from './contacto/contacto.component';
 import { FooterComponent } from './components/footer/footer.component';
+
+
+
 
 
 
@@ -37,9 +39,10 @@ import { FooterComponent } from './components/footer/footer.component';
     CarouselComponent,
     MarcasComponent,
     EquipoComponent,
-
     ContactoComponent,
      FooterComponent,
+
+
 
   ],
   imports: [
@@ -52,7 +55,8 @@ import { FooterComponent } from './components/footer/footer.component';
     FormsModule,
     ReactiveFormsModule
   ],
-  exports:[],
+  exports:[
+  ],
   providers: [
     ],
   bootstrap: [AppComponent]

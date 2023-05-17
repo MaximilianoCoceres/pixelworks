@@ -19,8 +19,8 @@
           <p class="card-text">
             {{ servicio.desc }}
           </p>
-          <button class="btn">
-            <a href="#">{{ servicio.button }}</a>
+          <button class="btn" (click)="abrirDetalleServicio(servicio.id)">
+            <a>{{ servicio.button }}</a>
           </button>
         </div>
       </div>

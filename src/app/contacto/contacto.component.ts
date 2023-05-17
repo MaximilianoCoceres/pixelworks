@@ -14,13 +14,16 @@ export class ContactoComponent implements OnInit {
   maxCaracteres:number = 200;
   conteoCaracteres:number = 200;
 
+  public archivos:any=[]
+
 constructor(){}
 
 ngOnInit(): void {
   this.formulario = new FormGroup({
     name:new FormControl('', [Validators.required, Validators.minLength(3)]),
     email:new FormControl ('', [Validators.required, ValidarEmail ]),
-     tel:new FormControl ('', [Validators.required,Validators.pattern(this.mobNumberPattern) ]),
+    tel:new FormControl ('', [Validators.required,Validators.pattern(this.mobNumberPattern) ]),
+    files: new FormControl(''),
     text:new FormControl('', [Validators.required,Validators.minLength(1),Validators.maxLength(200) ])
   });
 
@@ -40,4 +43,10 @@ actualizarCaracteres(event:Event){
   this.conteoCaracteres = this.maxCaracteres - valorTextarea.length;
 }
 
+capturarFile(event:any):any{
+  const archivoCaptura = event.tagret.files[0];
+  this.archivos.push(archivoCaptura);
+
+  console.log(this.archivos)
+}
 }

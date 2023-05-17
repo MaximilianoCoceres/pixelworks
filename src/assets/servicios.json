@@ -1,35 +1,41 @@
 [
   {
+    "id": 1,
     "servicio": "Diseño Web",
     "desc": "Creamos sitios web modernos y personalizados que destacan la identidad de tu marca y cautivan a tu audiencia.",
     "img": "../assets/images/diseño-web-min.jpg",
     "button": "Comienza tu proyecto ahora"
   },
   {
+    "id": 2,
     "servicio": "Diseño Gráfico",
     "desc": "Desde logotipos hasta materiales de marketing, nuestro equipo de diseño gráfico crea soluciones visuales impactantes y memorables.",
     "img": "../assets/images/diseño-grafico-min.jpg",
     "button": "Comienza tu proyecto ahora"
   },
   {
+    "id": 3,
     "servicio": "Branding y estrategia de marca",
     "desc": "Enfocado en ayudar a las empresas a desarrollar su identidad de marca, incluyendo la creación de logotipos, paletas de colores, guías de estilo y estrategias de posicionamiento de marca.",
     "img": "../assets/images/branding-min.jpg",
     "button": "Comienza tu proyecto ahora"
   },
   {
+    "id": 4,
     "servicio": "Marketing digital",
     "desc": "Ofrecemos estrategias de redes sociales, publicidad en línea, SEO (optimización de motores de búsqueda) y marketing de contenidos. Destaca la capacidad de aumentar la visibilidad en línea y generar leads para los clientes.",
     "img": "../assets/images/maketing-digital-min.jpg",
     "button": "Comienza tu proyecto ahora"
   },
   {
+    "id": 5,
     "servicio": "Fotografía y videografía",
     "desc": "Servicios de producción de contenido visual. Esto incluye fotografía de productos, fotografía de retratos corporativos, videoclips promocionales y más.",
     "img": "../assets/images/fotografia-min.jpg",
     "button": "Comienza tu proyecto ahora"
   },
   {
+    "id": 6,
     "servicio": "Desarrollo de aplicaciones móviles",
     "desc": "Crear aplicaciones nativas para iOS y Android, así como aplicaciones multiplataforma",
     "img": "../assets/images/app-movil-a-medida.jpg",

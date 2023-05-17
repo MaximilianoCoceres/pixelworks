@@ -9,6 +9,11 @@
   box-shadow: 0 1px 2px black;
 }
 
+.btnTrabaja a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
 .inicio h1 {
   color: #f4f4f4;
 }
